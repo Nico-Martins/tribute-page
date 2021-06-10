@@ -1,0 +1,81 @@
+html {
+   background-color: rgb(195, 171, 140); 
+}
+
+body {
+    width: 90vw;
+    background-color: antiquewhite;
+    margin: auto;
+    box-shadow: 1px 0px 5px 6px rgba(0, 0, 0, 0.2);
+}
+#title {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 60px;
+    padding: 50px;
+}
+#img-div {
+    background-color: rgb(255, 236, 220);
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(61, 61, 61);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0px 1px 5px 6px rgba(0, 0, 0, 0.2);
+}
+#image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+#image:hover {
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#img-caption {
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tribute-info {
+    padding: 30px 15% 10px 15%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+#tribute-paragraph {
+    padding-bottom: 50px;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 25px;
+}
+#list-title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+#life-list {
+    list-style-type: disc;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 0px 25% 50px 25%;
+    line-height: 40px;
+}
+.link {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(255, 236, 220);
+    box-shadow: 0px 1px 5px 6px rgba(0, 0, 0, 0.2);
+    font-size: large;
+}
+#tribute-link {
+    text-decoration: none;
+    color: inherit;
+}
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
